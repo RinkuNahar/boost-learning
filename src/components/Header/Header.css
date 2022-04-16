@@ -1,0 +1,23 @@
+.logo-img{
+    width: 100px;
+    height: 60px;
+}
+
+.navbar{
+    background-color: rgb(52, 149, 156);
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+.logo-title{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.headline{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
