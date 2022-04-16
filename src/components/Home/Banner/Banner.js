@@ -4,7 +4,7 @@ import One from '../../../images/slide/one.jpg';
 import './Banner.css'
 const Banner = () => {
     return (
-        <div>
+        <div className='carousel'>
            <Carousel>
   <Carousel.Item interval={1000}>
     <img

@@ -34,3 +34,10 @@
     
     }
 }
+@media(max-width:768px) and (min-width:540px){
+    .review-layout{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+}

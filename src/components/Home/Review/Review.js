@@ -5,7 +5,7 @@ import woman from '../../../images/review/woman.png'
 const Review = () => {
     return (
 
-        <div>
+        <div id='reviews'>
             <div>
                 <h1 className='text-danger mt-4 mb-4'>Reviews</h1>
                 </div>
