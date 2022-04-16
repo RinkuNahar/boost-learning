@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Mathematics",
+        "img": "https://img.freepik.com/free-psd/flat-lay-pi-sign-mathematics_23-2148458911.jpg?t=st=1650132656~exp=1650133256~hmac=b87fcbb2de1b1a14556599c69d2967ba74448ead38d86a22845ec4e017632a16&w=996",
+         "price": "200$",
+          "description": "Here, I teach math standards and the content of math programs for secondary schools. I Apply diverse teaching techniques and encourage the learning process in the mathematics classroom."
+    },
+    {
+        "id": 2,
+        "name": "Physics",
+        "img": "https://img.freepik.com/free-vector/red-atom-with-core-orbits-electrons-isolated-3d-nuclear-chemistry-technology-concept_333792-89.jpg?t=st=1650132600~exp=1650133200~hmac=ab1a9ced5b28a8ceb927d075c2cac70aa1b6226925e0dc6e31b15638ae38d544&w=826",
+         "price": "190$", 
+         "description": "Physics is the ground of all nature sciences. It gives to us clear imagine of the world. Because of this we have to find the most interesting and clever method of teaching physics.So I always try to teach them practically"
+    },
+    {
+        "id": 3,
+        "name": "Children's Special",
+        "img": "https://img.freepik.com/free-vector/alphabet-numeral-system-vectors_53876-61378.jpg?t=st=1650132549~exp=1650133149~hmac=41c1afae5ebcc33defd7dc2760e3d50afa5a12b878610b2b6c8066742f5c423a&w=740",
+         "price": "400$",
+         "description": "I give special care to children. Because They don't want to learn from book at all.All they wants to play.and for this reason people should teach them by playing. And also show them that practically. So I do Special care to them."
+    }
+]
