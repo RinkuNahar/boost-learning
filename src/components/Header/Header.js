@@ -26,7 +26,7 @@ const Header = () => {
                         <Nav className="me-auto">
                             <Nav.Link href="home#services" className='headline'>Services</Nav.Link>
                             <Nav.Link href="home#reviews" className='headline'>Reviews</Nav.Link>
-
+                        
                         </Nav>
                         <Nav>
                             <Nav.Link as={Link} to="about" className='headline'>About</Nav.Link>
@@ -51,3 +51,4 @@ const Header = () => {
 
 export default Header;
 
+{/* <Link to="/serviceheader" className='headline'>Services</Link> */}
