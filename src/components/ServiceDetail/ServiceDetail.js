@@ -8,25 +8,23 @@ const ServiceDetail = () => {
 
     useEffect(()=>{
         const course= Items.find(item => item.id === parseInt(serviceId)) 
-        console.log(course);
-        console.log(Items,serviceId);
+        // console.log(course);
+        // console.log(Items,serviceId);
         setInfo(course)
     },[serviceId]);
 
-    // useEffect(()=>{
-    //     fetch('services.json')
-    //     .then(res=> res.json())
-    //     .then(data=> {
-    //   console.log(data)});
-    // },[]);
 
     
     return (
-        <div>
-            <h2>this is for service : {serviceId}</h2>
-            <p>Course Name: {info.name}</p>
+        <div className='service w-50 mx-auto mt-4'>
+            <h2 className='mt-4 service-title'>Course Name: {info.name}</h2>
+            <img className='img-fluid service-img' src={info.img} alt="" />
+            <h3>Course-Fee : {info.price}</h3>
+            <p className='p-2'>{info.description}</p>
+
+
             <Link to='/checkout'>
-                    <button className='btn btn-primary'>Proceed Checkout</button>
+                    <button className='btn btn-primary mb-4'>Proceed Checkout</button>
             </Link>
 
         </div>
