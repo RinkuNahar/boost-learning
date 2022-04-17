@@ -1,14 +1,13 @@
 import React, {useState, useEffect} from 'react';
 import Service from '../Service/Service';
+import Items from '../../../service/services.json'
 
 const Services = () => {
 
   const [services, setServices] = useState([]);
-
+    console.log(Items)
   useEffect(()=>{
-      fetch('services.json')
-      .then(res=> res.json())
-      .then(data=> setServices(data));
+     setServices(Items)
   },[]);
 
     return (

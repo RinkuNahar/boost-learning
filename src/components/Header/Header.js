@@ -24,9 +24,10 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="home#services" className='headline'>Services</Nav.Link>
-                            <Nav.Link href="home#reviews" className='headline'>Reviews</Nav.Link>
-                        
+                            {/* <Nav.Link as={Link} to="home#services" className='headline'>Services</Nav.Link> */}
+                            <Nav.Link  href="home#services" className='headline'>Services</Nav.Link>
+                            <Nav.Link  href="home#reviews" className='headline'>Reviews</Nav.Link>
+
                         </Nav>
                         <Nav>
                             <Nav.Link as={Link} to="about" className='headline'>About</Nav.Link>
@@ -34,7 +35,7 @@ const Header = () => {
                          
                             {
                             user ?
-                                <button className='btn btn-link text-decoration-none text-white' onClick={handleSignOut}>Sign Out</button>
+                                <button className='btn btn-link text-decoration none' onClick={handleSignOut}>Sign Out</button>
                                 :
                                 <Nav.Link as={Link} to="login" className='headline'>
                                 Login
@@ -51,4 +52,3 @@ const Header = () => {
 
 export default Header;
 
-{/* <Link to="/serviceheader" className='headline'>Services</Link> */}
