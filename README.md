@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Project Name : Boost Learner
+* Set React Route
+* Use Firebase Authentication
+* Implement login via google
+* Implement Not Found Page
+* Details page shown
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Framework or Libraries
+* React Router
+* React.js
+* Bootstrap
+
+# Project Live Site : https://music-lifes.netlify.app/
+
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). -->
 
 ## Available Scripts
 

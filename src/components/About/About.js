@@ -5,7 +5,7 @@ import './About.css'
 const About = () => {
     return (
         <div className='service about mx-auto mt-4'>
-            <h2 className='about-title'>Myself</h2>
+            <h2 className='about-title'>About Myself</h2>
             <img className='myself-img img-fluid' src={rinku}  alt="" />
             <h2 className='mt-4 service-title'>Rinku Nahar Hossan</h2>
 
