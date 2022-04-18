@@ -10,7 +10,7 @@
 * React.js
 * Bootstrap
 
-# Project Live Site : https://music-lifes.netlify.app/
+# Project Live Site : https://boost-learner.web.app/
 
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). -->
 

@@ -39,3 +39,10 @@
     text-shadow: 1px 2px 3px red;
 
 }
+
+
+@media(max-width:540px){
+    .login-container{
+        width: 100%;
+    }
+}
