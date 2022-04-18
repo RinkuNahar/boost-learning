@@ -43,22 +43,22 @@ const Register = () => {
  
 
     return (
-        <div className='container register-form w-50'>
-            <h2>Please Register</h2>
+        <div className='container  mx-auto login-container'>
+            <h2 className='login-title'>Please Register</h2>
             <form onSubmit={handleRegister}>
-                <input type="text" name='name' placeholder='Your Name' />
+                <input className='w-75 mx-auto m-0 form-input login-container' type="text" name='name' placeholder='Your Name' />
                 <br />
                 <br />
-                <input type="email" name="email" id="" placeholder='Your email' required/>
+                <input className='w-75 mx-auto form-input m-0 login-container' type="email" name="email" id="" placeholder='Your email' required/>
                 <br />
                 <br />
-                <input type="password" name="password" id="" placeholder='Your Password' required/>
+                <input className='w-75 mx-auto form-input m-0 login-container' type="password" name="password" id="" placeholder='Your Password' required/>
                 <br />
                 <br />
                 {errorElement}
-                <input type="submit" className='btn btn-primary' value="Register" />
+                <input type="submit" className='btn btn-primary login-button' value="Register" />
             </form>
-            <p>Already Have an account? <Link to={'/login'} className='text-primary text-decoration-none ' onClick={navigateLogin}>Please LogIn</Link></p>
+            <p className='mt-4 fs-4 new-para'>Already Have an account? <Link to={'/login'} className='text-primary text-decoration-none ' onClick={navigateLogin}>Please LogIn</Link></p>
             <SocialLogin></SocialLogin>
         </div>
     );

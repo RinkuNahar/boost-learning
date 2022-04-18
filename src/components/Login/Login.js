@@ -7,6 +7,7 @@ import auth from '../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import './Login.css'
 
 const Login = () => {
 
@@ -59,25 +60,25 @@ const Login = () => {
     }
 
     return (
-        <div className='container w-50 mx-auto'>
-            <h2>Please Login</h2>
+        <div className='container mx-auto login-container'>
+            <h2 className='login-title'>Please Login</h2>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
 
-                    <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
+                    <Form.Control className='w-75 mx-auto form-input' ref={emailRef} type="email" placeholder="Enter email" required />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
+                    <Form.Control className='w-75 mx-auto form-input' ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
                 {errorElement}
-                <Button variant="primary" type="submit">
-                    Login
+                <Button className='login-button' variant="primary" type="submit">
+                  <p className='pt-1'>Login</p>
                 </Button>
             </Form>
-            <p>New to Boost Learner? <Link to={'/register'} className='text-primary text-decoration-none ' onClick={navigateRegister}>Please Register</Link></p>
+            <p className='mt-4 fs-4 new-para'>New to Boost Learner? <Link to={'/register'} className='text-primary text-decoration-none ' onClick={navigateRegister}>Please Register</Link></p>
             
-            <p>Forget Password? <button to={'/register'} className='text-primary text-decoration-none ' onClick={resetPassword}>Reset Password</button></p>
+            <p className='mt-4 fs-5 forget-para'>Forget Password? <button to={'/register'} className='text-primary border-0 text-decoration-none  bg-white login-button forget-para ' onClick={resetPassword}>Reset Password</button></p>
             <SocialLogin></SocialLogin>
             <ToastContainer></ToastContainer>
         </div>
